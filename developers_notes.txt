@@ -1,0 +1,10 @@
+Frontend_Environment:
+REACT_APP_API_URL: http://${NODE_IP}:8080/car-rental/api/
+Backend_Environment:
+SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/carrental
+SPRING_DATASOURCE_USERNAME: techprodb_user
+SPRING_DATASOURCE_PASSWORD: password
+Database_Enironment:
+POSTGRES_USER: techprodb_user
+POSTGRES_PASSWORD: password
+POSTGRES_DB: carrental
